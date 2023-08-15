@@ -1,0 +1,74 @@
+body {
+  margin: 50px;
+  background-color: rgb(97, 216, 170);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 40px;
+  color: rgb(216, 78, 13);
+}
+
+img {
+  height: 225px;
+  width: 400px;
+  margin: 20px;
+}
+
+main {
+  background-color: rgb(138, 148, 30);
+  text-align: start;
+  font-family: "Nanum Gothic", sans-serif;
+  width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(1, 1, 1, 0.3);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  border-left: 3px solid transparent;
+  padding-left: 10px;
+}
+
+.highlight {
+  color: aqua;
+  border-color: yellow;
+}
+
+span {
+  background-color: antiquewhite;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+footer a {
+  padding: 10px;
+}

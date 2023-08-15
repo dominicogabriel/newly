@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Playfair+Display+SC:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="image/favicon-16x16.png" type="image/x-icon" />
+    <title>HTML CSS Basics</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML & CSS Basics summary</h1>
+      <img src="/image/html-css.png" alt="html-css" />
+    </header>
+    <main>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (Hyper Text Markup Language) is used to define our page content,
+          structure and meaning. You <strong>don't</strong> use it for styling
+          purposes. Use CSS for that instead!
+        </p>
+        <ul>
+          <li class="highlight">
+            HTML uses "elements" to describe (annotate) content
+          </li>
+          <li>
+            HTML elements typically have an opening tag, content and then a
+            closing tag
+          </li>
+          <li class="highlight">
+            You can also have void (empty) elements like image
+          </li>
+          <li class="highlight">
+            You can also configure elements with attributes
+          </li>
+          <li>
+            There's a long list of available elements but you'll gain experience
+            overtime, no worries.
+          </li>
+        </ul>
+        <p>
+          Learn more about all avaliable HTML elements on<a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            >the MDN HTML element reference
+          </a>
+        </p>
+      </section>
+      <section>
+        <h2>CSS Summary</h2>
+        <p>
+          CSS (Cascading style sheets) is used for styling your page content
+        </p>
+        <ul>
+          <li>Styles are assigned via property-value pairs</li>
+          <li>You can assign styles via the "style" attribute</li>
+          <li class="highlight">
+            To avoid code duplication, ypu typically used global styles (e.g via
+            the "style" element) instead
+          </li>
+          <li>
+            Alternatively, You can work with external stylesheet files which you
+            "link" to
+          </li>
+          <li class="highlight">
+            When working with CSS, concepts like "inheritance", "specifiticity",
+            and the "box model" should be understood
+          </li>
+        </ul>
+        <p>
+          Learn more about all available CSS properties and values on<a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            >the MDN CSS Property reference</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="/pdf/html-css-basics-summary.pdf" target="_blank"
+        >Download PDF Summary</a
+      >
+      <p>&copy; Dominic/Oreo</p>
+    </footer>
+  </body>
+</html>
